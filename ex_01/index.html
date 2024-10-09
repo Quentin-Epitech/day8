@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrousel </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    </head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <section class="splide" aria-labelledby="carousel-heading">
+        
+      
+      
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><img src="p1.jpg"></li>
+                  <li class="splide__slide"><img src="p2.jpg"></li>
+                  <li class="splide__slide"><img src="p3.jpg"></li>
+                  <li class="splide__slide"><img src="p4.jpg"></li>
+                  <li class="splide__slide"><img src="p5.jpeg"></li>
+                  <li class="splide__slide"><img src="p6.jpg"></li>
+                  <li class="splide__slide"><img src="p7.jpg"></li>
+                  <li class="splide__slide"><img src="p8.jpeg"></li>
+                  <li class="splide__slide"><img src="p9.jpg"></li>
+                  <li class="splide__slide"><img src="p10.jpg"></li>
+              </ul>
+        </div>
+      </section>
+
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide('.splide',{
+          width:'60%',
+          start: 1,
+          perPage :3,
+          gap:'10px',
+          type:'loop',
+          autoplay: true,
+          interval:5000,
+          breakpoints:{
+            500:{perPage:2},
+            400:{perPage:1},},
+          
+
+        });
+        splide.mount();
+        });
+      </script> 
+
+</body>
+</html>
