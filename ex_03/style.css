@@ -1,0 +1,38 @@
+body {font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;}
+
+.element {background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(230, 225, 225, 0.1);}
+
+.h2 {display: flex;
+    justify-content: bottom;
+    align-items: bottom;}
+
+.container {display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;}
+#square-element {width: 100px;
+    height: 100px;
+    background-color: rgb(60, 60, 129);}
+
+.tippy-box[data-theme~='custom'] {
+    background-color: black;
+    color: white;
+     border-radius: 4px;}
+
+#button-element {background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;}
+
+.tippy-box[data-theme~='custom'][data-placement^='top'] > .tippy-arrow::before {
+    border-top-color: black;}
