@@ -16,8 +16,4 @@ Object.entries(tooltipContents).forEach(([selector, content]) => {
             onShow(instance) {
                 setTimeout(() => {
                     instance.hide();
-                }, 2000);
-            }
-        });
-    });
-});
+                }, 2000);}});});});
