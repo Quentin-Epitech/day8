@@ -27,6 +27,8 @@ body {
     align-items: center; 
     overflow: hidden; 
     height: 200px; 
+    opacity:0.5;
+
 }
 
 .splide__slide img {
@@ -36,3 +38,6 @@ body {
     border-radius: 5px; 
 }
 
+.splide__slide.is-active{
+    opacity:1;
+}
