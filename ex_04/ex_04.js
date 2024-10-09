@@ -1,3 +1,2 @@
-function houdini() {$('p').hide();}
+function houdini() {$('d').hide();}
  $(document).ready(function() {});
- 
