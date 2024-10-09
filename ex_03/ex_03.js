@@ -4,9 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '#button-element': 'Pure CSS!',
         '#square-element': 'Pure CSS!',
         '#sound-element': 'Pure CSS!',
-        '#video-element': 'Pure CSS!'
-
-    };
+        '#video-element': 'Pure CSS!'};
 Object.entries(tooltipContents).forEach(([selector, content]) => {
         tippy(selector, {
             content: content,
